@@ -1,7 +1,7 @@
 from django.test import TestCase
 
 
-class FirstTest(TestCase):
+class TestDivisionByZero(TestCase):
 
     def divide_by_zero(self):
         return 7 / 0
