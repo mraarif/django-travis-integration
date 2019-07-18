@@ -1,7 +1,6 @@
 language: python
 
 python:
-  - 2.7
   - 3.6
   - 3.7
 
@@ -11,9 +10,6 @@ env:
   - TOXENV=django22
 
 matrix:
-  include:
-    - python: 2.7
-      env: TOXENV=quality
   allow_failures:
     - python: 3.6
     - python: 3.7
@@ -29,8 +25,8 @@ cache:
   - pip
 
 install:
-  - pip install tox
   - pip install -r requirements.txt
+  - pip install -r test_requirements.txt
 
 script:
   - tox

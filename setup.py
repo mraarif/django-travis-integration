@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 import travis_integration
 
 setup(
-    name='tox_sample',
+    name='travis_integration',
     version=travis_integration.__version__,
     description='',
     author='aarif',
