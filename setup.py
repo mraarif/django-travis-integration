@@ -19,7 +19,7 @@ setup(
     ],
     packages=find_packages(),
     install_requires=[
-        'Django==2.2.13',
+        'Django==2.2.18',
         'pytz==2019.1',
         'sqlparse==0.3.0'
     ]
