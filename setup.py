@@ -21,6 +21,6 @@ setup(
     install_requires=[
         'Django==2.2.18',
         'pytz==2019.1',
-        'sqlparse==0.3.0'
+        'sqlparse==0.4.4'
     ]
 )
